@@ -1,0 +1,15 @@
+.like-heart {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .heart-icon {
+    color: red;
+    font-size: 24px;
+    transition: transform 0.2s;
+  }
+  
+  .like-heart:hover .heart-icon {
+    transform: scale(1.2);
+  }
+  

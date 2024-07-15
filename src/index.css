@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+.Toastify_Toast-body{
+  background-color: white;
+}
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+}
+@keyframes reveal {
+  80%{
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}

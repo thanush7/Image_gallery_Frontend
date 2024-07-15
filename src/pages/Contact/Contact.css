@@ -1,0 +1,83 @@
+.details{
+  display: flex;
+  gap: 10px;
+}
+.details input,.detail input,.detail textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #161718;
+    color: white;
+    border: none;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    margin-left: 50vh;
+    margin-top: 30vh;
+    
+    
+}
+.contact-container button{
+   background-color: aquamarine;
+   color:black;
+   width: 100px;
+   height: 40px;
+   padding: 5px;
+   border-radius: 7px;
+   justify-content: center;
+   gap: 50px;
+   margin-left:40vh;
+   cursor: pointer;
+}
+.contact-container button:hover{
+    color: white
+}
+.title{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.lec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 100%;
+    position: relative;
+    left: 70px;
+    right: 300px;
+    
+}
+.location{
+    padding: 50px;
+}
+.call{
+    padding: 50px;
+}
+.email{
+    padding: 50px;
+}
+
+@media (max-width:950px) {
+    .lec{
+        display: none;
+    }
+    .contact-container{
+        margin-left: 15vh;
+        margin-top: 20vh;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container button{
+        position:relative;
+        right: 210px;
+    }
+}
