@@ -1,5 +1,8 @@
 *{
   color:white;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
 .title{
     width: 50%;
@@ -99,5 +102,44 @@
     }
     to{
       border-right-color: transparent;
+    }
+  }
+  @media (max-width:420px) {
+    .header-about{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .title{
+      margin-left: 70px;
+    }
+    .title p{
+      font-size: 15px;
+    }
+    .title b{
+      font-size: 20px;
+    }
+    .title h3{
+      font-size: 20px;
+    }
+    .image img{
+      height: 300px;
+    }
+    .works{
+      width: 300px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+    .works p{
+      text-align:center;
+    }
+    .events{
+      display: flex;
+      flex-direction: column;
+    }
+    .baby-shoot{
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
     }
   }

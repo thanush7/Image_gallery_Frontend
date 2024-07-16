@@ -21,15 +21,15 @@ export const menu_list = [
         menu_image: image5
     },
     {
-        menu_name: "Product",
+        menu_name: "product",
         menu_image: image5
     },
     {
-        menu_name: "Architecture",
+        menu_name: "architecture",
         menu_image: image5
     },
     {
-        menu_name: "Landscape",
+        menu_name: "landscape",
         menu_image: image5
     },
     {
@@ -37,19 +37,19 @@ export const menu_list = [
         menu_image: macro
     },
     {
-        menu_name: "Nature",
+        menu_name: "nature",
         menu_image: image5
     },
     {
-        menu_name: "Astro",
+        menu_name: "astro",
         menu_image: image5
     },
     {
-        menu_name: "Street",
+        menu_name: "street",
         menu_image: street
     },
     {
-        menu_name: "Black and White",
+        menu_name: "black and white",
         menu_image: image5
     },
 ]

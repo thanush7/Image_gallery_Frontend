@@ -64,20 +64,24 @@
     padding: 50px;
 }
 
-@media (max-width:950px) {
-    .lec{
-        display: none;
-    }
+@media (max-width:420px) {
     .contact-container{
-        margin-left: 15vh;
-        margin-top: 20vh;
+        margin-left: 13vh;
+        margin-top: 5vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 0px;
     }
     .details{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .contact-container input{
+        width: 290px;
     }
     .contact-container button{
-        position:relative;
-        right: 210px;
+        margin-left: 10px;
     }
 }

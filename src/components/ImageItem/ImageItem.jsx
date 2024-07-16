@@ -21,14 +21,14 @@ const ImageItem = ({ id, image,likes }) => {
     <div className='image-item'>
       <div className="image-item-container">
         <img src={url+"/images/"+image} alt="" />
-        <div className='like'>
+        {/* <div className='like'>
           <p>likes:<span>{likes}</span></p>
           <div className='sdl'>
           <FaDownload />
           <IoIosShareAlt />
           <FcLike />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

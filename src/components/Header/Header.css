@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-left: 10px;
+    margin-left: px;
 }
 .navbar-left img{
     width: 50px;
@@ -47,8 +47,29 @@
 .menu li:hover{
     color:white;
 }
-@media (max-width:950px) {
-    .menu li{
-        display: none;
+@media (max-width:420px) {
+    .header{
+        padding: 10px;
     }
+  .navbar-left h2{
+    font-size: 15px;
+  }
+  .navbar-left img{
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-right{
+    display: none;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .menu li{
+    font-size: 12px;
+  }
+  .menu li:hover{
+    color:white;
+  }
 }
