@@ -9,7 +9,7 @@ const Middle = () => {
         <div className='events'>
             <div className="baby-shoot">
                 <img src={image1} alt="" />
-                <h5>Baby Shoot</h5>
+                <h5>Model shoot</h5>
             </div>
             <div className="baby-shoot">
                 <img src={image1} alt="" />
@@ -17,7 +17,7 @@ const Middle = () => {
             </div>
             <div className="baby-shoot">
                 <img src={image1} alt="" />
-                <h5>Baby Shoot</h5>
+                <h5>Astro</h5>
             </div>
             <div className="baby-shoot">
                 <img src={image1} alt="" />
